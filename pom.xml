@@ -55,18 +55,18 @@
     <repositories>
         <repository>
             <id>openshift-repository</id>
-            <url>http://svn.fif.co.id:8888/nexus-2.0.6/content/groups/FIF-Group</url>
+            <url>http://nexus-nexus3.apps.example.com/repository/group1/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
       <repository>
          <id>nexus</id>
-         <url>http://nexus:8081/content/repositories/releases</url>
+         <url>http://nexus-nexus3.apps.example.com/repository/group1/</url>
       </repository>
        <snapshotRepository>
           <id>nexus</id>
-          <url>http://nexus:8081/content/repositories/snapshots</url>
+          <url>http://nexus-nexus3.apps.example.com/repository/group1/</url>
        </snapshotRepository>
     </distributionManagement>
 
